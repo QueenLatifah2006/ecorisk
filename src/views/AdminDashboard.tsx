@@ -210,7 +210,7 @@ export function AdminDashboard({ onBroadcastAlert }: AdminDashboardProps) {
                       <h3 className="font-bold text-sm tracking-tight flex items-center gap-2">
                         {getCategoryIcon(zone.category)} {zone.name}
                       </h3>
-                      <p className="text-xs mt-2 text-slate-600">
+                      <div className="text-xs mt-2 text-slate-600">
                         {zone.type === 'AI_PREDICTION' ? (
                            <>
                              <span className="block mb-1"><strong>Type:</strong> Risque {CATEGORY_LABELS[zone.category]}</span>
@@ -229,7 +229,7 @@ export function AdminDashboard({ onBroadcastAlert }: AdminDashboardProps) {
                              <span className="block text-slate-400 mt-1">Par: {zone.user}</span>
                            </>
                         )}
-                      </p>
+                      </div>
                     </div>
                   </Popup>
                 </CircleMarker>
