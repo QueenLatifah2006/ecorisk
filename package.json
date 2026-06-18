@@ -22,6 +22,7 @@
     "postcss": "^8.5.15",
     "react": "^19.0.1",
     "react-dom": "^19.0.1",
+    "react-is": "^19.2.7",
     "react-leaflet": "^5.0.0",
     "recharts": "^3.8.1",
     "sonner": "^2.0.7",
