@@ -1,0 +1,8 @@
+{
+  "name": "EcoRisk AI",
+  "description": "Predict. Prevent. Protect. Anticipez les risques environnementaux locaux grâce à l'intelligence artificielle.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
