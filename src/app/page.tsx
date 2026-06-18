@@ -12,7 +12,6 @@ import type { AlertMessage } from '@/src/views/AdminDashboard';
 import { Auth, User } from '@/src/views/Auth';
 import { ShieldAlert, BarChart3, Droplets, Trash2, MapPinned, Megaphone, LogOut, Shield, AlertTriangle, X } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
-import { ThemeToggle } from '@/src/components/theme-toggle';
 
 type ViewState = 'dashboard' | 'flood' | 'waste' | 'map' | 'report' | 'admin-dash';
 type UserRole = 'admin' | 'citizen' | null;
@@ -111,7 +110,6 @@ export default function App() {
              </div>
            </div>
            <div className="flex items-center gap-2">
-             <ThemeToggle />
              <button onClick={handleLogout} className="text-slate-400 hover:text-slate-900 transition-colors" title="Déconnexion">
                <LogOut className="w-5 h-5" />
              </button>
